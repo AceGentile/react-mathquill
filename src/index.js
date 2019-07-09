@@ -1,4 +1,4 @@
-import MathQuillComponent from './Component'
+import MathQuillComponent, { lel } from './Component'
 import style from 'mathquill/build/mathquill.css'
 
 export function addStyles() {
@@ -12,4 +12,5 @@ export function addStyles() {
   }
 }
 
+export const MQ = lel;
 export default MathQuillComponent

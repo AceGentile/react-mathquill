@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { MathQuill } from './mathquill-loader'
+import { MathQuill, MQ } from './mathquill-loader'
 
 class MathQuillComponent extends React.Component {
   constructor(props) {
@@ -66,4 +66,5 @@ MathQuillComponent.propTypes = {
   mathquillDidMount: PropTypes.func,
 }
 
+export const lel = MQ;
 export default MathQuillComponent
